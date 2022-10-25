@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="n"></div>
+    <script>
+        // for( n = 1;n <= 9;n++){
+        //     $(".n") .append('n');
+        // }
+        
+        for(var h=2 ; h < 10 ; h++){
+            for(var s=2 ; s < 10 ; s++){
+                if((h * s % 7) == 0){
+                    console.log(h + "*" + s + "=" + h * s)
+                }
+            }
+        }
+        
+        // document.write(8*3%7);
+        // var a = 8;
+        // if((a%8) == 0){
+        //     document.write(a%3);
+        // }
+
+        // var arr1 = [ 
+        //     [1,'2',33,true],
+        //     [1,2,3]
+        // ];
+        // document.write(arr1[0][2]);
+        // 這個非同型陣列只是資料型態雙中括弧可以撈單括也可以撈
+
+        // var arr4 = [
+        //     { name : "Tsuifei", 
+        //     type : "object", 
+        //     luckyNumber : [5, 7, 13, 42] 
+        //     }, 
+        //     [
+        //         { name: "Philippe", type: "object" },
+        //         { name: "Ayda", type: "object" },
+        //     ],
+        //     1,
+        //     function too() { return "array can contain function too" },
+        //     "three",
+        // ];
+        // document.write(arr4[0][2]);//這個非同型陣列中有物件型態，雙中括弧撈不到 單括可以撈
+
+        // arr4[0].luckyNumber;
+        // 加上物件型態的名字就可以撈到
+
+        // var arr5 = [9,9,1];
+        // document.write(arr5);
+
+
+        // var arr1 = [1,2,3];
+        // var arr2 = [4,5,6];
+
+        // var sum = 0;
+        // for(var i=0; i< arr1.length; i++) {
+        //     sum += arr1[i]*arr2[i];
+        //     console.log(sum);
+        // };
+        
+
+        // var data = "0,1,2,3";
+
+        // var arr = JSON.parse("[" + data + "]");
+        // console.log(arr)
+        // console.log(typeof arr[0])
+
+        // let arr1019 = new Array(9);
+        // console.log(arr1019)
+
+        // var arr1019 = [];
+        
+        // for (var h = 0; h < 8; h++){
+        //     for(var s = 2; s < 3; s++){
+        //         arr1019[h] = ((h+2)*s) ;
+        //     }
+        // }
+        // console.log(arr1019)
+
+        // document.write(arr1019);
+
+
+
+
+
+
+
+
+
+
+        
+        
+    </script>
+
+</body>
+</html>
